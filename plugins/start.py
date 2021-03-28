@@ -10,9 +10,8 @@ async def start(client, message):
             "📞 Contact", url="https://t.me/t_r_oy")]
     ])
     welcomed = f"""Hey <b>{message.from_user.first_name}</b>\n
-    
-    Welcome to @YouTubeX11bot, The Most Advanced YouTube Video and Audio Downloader in Telegram!
+Welcome to @YouTubeX11bot, The Most Advanced YouTube Video and Audio Downloader in Telegram!
 
-    Send any YouTube video link to download!"""
+Send any YouTube video link to download!"""
     await message.reply_text(welcomed, reply_markup=joinButton)
     raise StopPropagation
